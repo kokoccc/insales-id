@@ -1,11 +1,10 @@
 async function showIDs() {
-
   const classes = {
     added: 'id-added',
     product: 'product-id-added',
     variants: 'variants-id-added',
     variant: 'variant-id-added'
-  }
+  };
 
   const urlMatches = [
     '/admin2/collections/',
